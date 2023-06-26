@@ -18,3 +18,294 @@ a {
     color: unset;
     text-decoration: none;
 }
+
+.app__en-header,
+.app__bg-header {
+    display: flex;
+    position: fixed;
+    flex-direction: row;
+    align-items: center;
+    background: #0d1b2a;
+    padding: 1rem 2rem;
+    width: 100vw;
+    height: 10vh;
+    top: 0;
+}
+
+.app__en-header h1,
+.app__bg-header h1 {
+    font-family: 'Calibri';
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 130%;
+    letter-spacing: 0.04em;
+    color: #e0e1dd;
+    cursor: default;
+}
+
+.app__en-header h2,
+.app__bg-header h2 {
+    font-family: 'Calibri';
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 110%;
+    letter-spacing: 0.04em;
+    color: #e0e1dd;
+    margin-left: 4rem;
+    cursor: default;
+}
+
+.app__en-header_switch,
+.app__bg-header_switch {
+    display: flex;
+    position: absolute;
+    right: 3rem;
+}
+
+.app__en-header_switch p,
+.app__bg-header_switch p,
+.app__en-header_switch b,
+.app__bg-header_switch b {
+    font-family: 'Calibri';
+    font-size: 23px;
+    line-height: 110%;
+    letter-spacing: 0.04em;
+    color: #e0e1dd;
+    cursor: default;
+}
+
+.app__en-header_switch span,
+.app__bg-header_switch span {
+    font-family: 'Calibri';
+    font-size: 23px;
+    line-height: 110%;
+    letter-spacing: 0.04em;
+    color: #e0e1dd;
+    margin: 0 0.2rem;
+    cursor: default;
+}
+
+.app__en-header_switchhover:hover,
+.app__bg-header_switchhover:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.app__en-content,
+.app__bg-content {
+    display: flex;
+    flex-direction: row;
+}
+
+.app__en-content_sidebar,
+.app__bg-content_sidebar {
+    display: flex;
+    position: fixed;
+    flex-direction: column;
+    padding: 2rem 2rem;
+    background: #1b263b;
+    width: 20vw;
+    height: 90vh;
+    left: 0;
+    top: 10vh;
+}
+
+.app__en-content_sidebar h2,
+.app__bg-content_sidebar h2 {
+    font-family: 'Calibri';
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 110%;
+    letter-spacing: 0.04em;
+    color: #e0e1dd;
+    margin-bottom: 2rem;
+    cursor: default;
+}
+
+.app__en-content_sidebar p,
+.app__bg-content_sidebar p {
+    font-family: 'Calibri';
+    font-size: 17px;
+    line-height: 110%;
+    letter-spacing: 0.04em;
+    color: #e0e1dd;
+    margin-bottom: 1rem;
+}
+
+.app__en-content_sidebar_education,
+.app__bg-content_sidebar_education {
+    display: flex;
+    flex-direction: column;
+}
+
+.app__en-content_sidebar_language,
+.app__bg-content_sidebar_language {
+    display: flex;
+    flex-direction: column;
+}
+
+.app__en-content_sidebar_info,
+.app__bg-content_sidebar_info {
+    display: flex;
+    flex-direction: column;
+}
+
+.app__en-content_sidebar_info p,
+.app__bg-content_sidebar_info p {
+    margin-left: 0.7rem;
+}
+
+.info_row {
+    display: flex;
+    flex-direction: row;
+    margin-top: 0.1rem;
+}
+
+.sidebar_line {
+    display: flex;
+    height: 2px;
+    width: 16.5vw;
+    background-color: rgba(255, 255, 255, 0.3);
+    margin: 1.5rem 0;
+}
+
+.app__en-content_sp,
+.app__bg-content_sp {
+    display: flex;
+    position: fixed;
+    flex-direction: column;
+    background: #778da9;
+    padding: 2rem 3rem;
+    width: 80vw;
+    height: 90vh;
+    overflow-y: auto;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+    top: 10vh;
+    left: 20vw;
+}
+
+.app__en-content_sp::-webkit-scrollbar,
+.app__bg-content_sp::-webkit-scrollbar {
+  display: none;
+}
+
+.app__en-content_sp_skills,
+.app__bg-content_sp_skills,
+.app__en-content_sp_projects,
+.app__bg-content_sp_projects {
+    display: flex;
+    flex-direction: column;
+}
+
+.elements_container {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 1.5rem;
+}
+
+.app__en-content_sp_skills p,
+.app__bg-content_sp_skills p {
+    font-family: 'Calibri';
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 110%;
+    letter-spacing: 0.04em;
+    color: #0d1b2a;
+    margin-bottom: 1rem;
+    cursor: default;
+}
+
+.app__en-content_sp_skills h2,
+.app__bg-content_sp_skills h2 {
+    font-family: 'Calibri';
+    font-weight: 800;
+    font-size: 65px;
+    line-height: 110%;
+    letter-spacing: 0.04em;
+    color: #0d1b2a;
+    margin-bottom: 0.5rem;
+    cursor: default;
+}
+
+.app__en-content_sp_projects h2,
+.app__bg-content_sp_projects h2 {
+    font-family: 'Calibri';
+    font-weight: 800;
+    font-size: 65px;
+    line-height: 110%;
+    letter-spacing: 0.04em;
+    color: #0d1b2a;
+    margin-bottom: 1.5rem;
+    cursor: default;
+}
+
+.app__en-content_sp_projects_project,
+.app__bg-content_sp_projects_project {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2rem;
+}
+
+.app__en-content_sp_projects_project h3,
+.app__bg-content_sp_projects_project h3 {
+    font-family: 'Calibri';
+    font-weight: 600;
+    font-size: 60px;
+    line-height: 110%;
+    letter-spacing: 0.04em;
+    color: #0d1b2a;
+    margin-top: 2rem;
+    cursor: default;
+}
+
+.app__en-content_sp_projects_project h4,
+.app__bg-content_sp_projects_project h4 {
+    font-family: 'Calibri';
+    font-size: 40px;
+    line-height: 40%;
+    letter-spacing: 0.04em;
+    color: #0d1b2a;
+    cursor: default;
+    margin-bottom: 0.7rem;
+    margin-left: 0.2rem;
+}
+
+.app__en-content_sp_projects_project p,
+.app__bg-content_sp_projects_project p {
+    font-family: 'Calibri';
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 110%;
+    letter-spacing: 0.04em;
+    color: #0d1b2a;
+    cursor: default;
+    margin-top: 1.5rem;
+}
+
+.app__en-content_sp_projects_project span,
+.app__bg-content_sp_projects_project span {
+    font-family: 'Calibri';
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 90%;
+    letter-spacing: 0.04em;
+    color: #0d1b2a;
+    cursor: default;
+    margin-right: 0.5rem;
+}
+
+.app__en-content_sp_projects_project a,
+.app__bg-content_sp_projects_project a {
+    font-family: 'Calibri';
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 90%;
+    letter-spacing: 0.04em;
+    color: #0d1b2a;
+}
+
+.app__en-content_sp_projects_project a:hover,
+.app__bg-content_sp_projects_project a:hover {
+    text-decoration: underline;
+}
