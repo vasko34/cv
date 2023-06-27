@@ -95,6 +95,7 @@ const App = () => {
                                     </div>  
                                     <p>This website is fairly self-explanatory. I allowed myself to make necessary changes while following the design as closely as possible. For example, when implementing media queries for smaller devices, I removed the navigation bar and replaced it with a menu button. Additionally, I changed the flex-direction from row to column in certain sections. After completing the Figma design and ensuring mobile responsiveness, I decided to add overlays for the Log in/Register and Book Table menus, which were not included in the original design. I believe I managed to maintain a consistent style with the other components.</p>                          
                                 </div>
+                                <div className = 'project_margin'></div>
                                 <div className = 'app__en-content_sp_projects_project'>
                                     <h3>Gold Bar</h3>
                                     <div className = 'info_row'>
@@ -107,9 +108,22 @@ const App = () => {
                                     </div>
                                     <p>Gold Bar is a website designed for local use in a hookah bar. The idea is to provide each table in the bar with its own dedicated account. When you enter and choose a table, you will find either a QR code to scan, which will open Gold Bar and log you into the table's account, or a tablet on the table that is already logged into the table's account. To log out of the table's account or to create a new one, you will need a security code managed by the admin account.</p>
                                     <p>In addition to the tables, there is at least one admin account, with the option to create more if necessary. The admin account allows you to update the tobacco library of Gold Bar, view all orders from all tables, track the total number of hookah bowls sold, add new tobaccos to the library and database, delete existing ones, and modify the security code.</p>
-                                    <p>The regular account allows you to browse the library with filters for the brand, type, and flavor of the tobaccos. You can customize an unlimited number of hookah bowls, with up to five different tobaccos for each bowl. Once you have finished customizing your hookah bowl, you can either send it directly to the admin using the 'One Click Order' button or add it to your orders using the 'Add To Orders' button. In the orders section, you can store multiple hookah bowls until you are ready to submit them to the admin. Additionally, you have the option to remove bowls from your orders before submitting them.</p>
+                                    <p>The regular account allows you to browse the library with filters for the brand, type, and flavor of the tobaccos. You can customize an unlimited number of hookah bowls, with up to five different tobaccos for each bowl. Once you have finished customizing your hookah bowl, you can either send it directly to the admin using the 'One Click Order' button or add it to your orders using the 'Add To Orders' button. In the orders section, you can store multiple hookah bowls until you are ready to submit them to the admin. Additionally, you have the option to remove bowls from your orders before submitting them.</p>                                    
                                     <p>In the case of using QR codes instead of tablets, an implemented auto log out is in place after 20 minutes, which would be removed if the tablet option is preferred.</p>    
+                                    <div className = 'app__en-content_sp_projects_project_accounts'>
+                                        <div className = 'app__en-content_sp_projects_project_accounts_account'>
+                                            <h5>Regular account</h5>
+                                            <p>Username: Table01</p>
+                                            <p>Password: Asdf1234</p>
+                                        </div>
+                                        <div className = 'app__en-content_sp_projects_project_accounts_account'>
+                                            <h5>Admin account</h5>
+                                            <p>Username: Admin</p>
+                                            <p>Password: Qwer9876</p>
+                                        </div>
+                                    </div>                                 
                                 </div>
+                                <div className = 'project_margin'></div>
                                 <div className = 'app__en-content_sp_projects_project'>
                                     <h3>My CV</h3>
                                     <div className = 'info_row'>
@@ -199,6 +213,7 @@ const App = () => {
                                     </div>
                                     <p>За този уебсайт няма много какво да се каже. Позволих си да направя някои промени, като се стремях да се придържам възможно най-точно към дизайна. Например, докато приспособявах сайта за по-малки устройства премахнах енкър таговете (&lt;a&gt;...&lt;/a&gt;) и ги замених с меню бутон. Освен това промених насоката на flex-direction от ред в колона в определени секции. След завършването на Figma дизайна и осигуряването на мобилна адаптивност, реших да добавя оувърлейове за менютата "Log in/Register" и "Book Table", които не бяха включени в оригиналния дизайн, придържайки се към стила му.</p>
                                 </div>
+                                <div className = 'project_margin'></div>
                                 <div className = 'app__bg-content_sp_projects_project'>
                                     <h3>Голд Бар</h3>
                                     <div className = 'info_row'>
@@ -214,6 +229,7 @@ const App = () => {
                                     <p>Обикновеният акаунт ви позволява да разглеждате библиотеката с тютюни, с филтри за марка, вид и вкус. Можете да персонализирате неограничен брой чашки, с до пет различни тютюна за всяка чашка. След като приключите с персонализирането на вашата чашка, можете да я изпратите директно на админа, използвайки бутона "One Click Order", или да я добавите към вашите поръчки с бутона "Add To Orders". В секцията с поръчки можете да съхранявате множество чашки, докато не станете готови да ги изпратите на админа. Освен това имате възможност да премахвате чашките от вашите поръчки, преди да ги изпратите.</p>
                                     <p>В случай на използване на QR кодове вместо таблети, е имплементирано автоматично излизане от акаунта след 20 минути, което би било премахнато, ако се предпочете опцията с таблетите.</p>
                                 </div>
+                                <div className = 'project_margin'></div>
                                 <div className = 'app__bg-content_sp_projects_project'>
                                     <h3>Моето CV</h3>
                                     <div className = 'info_row'>

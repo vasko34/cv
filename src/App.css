@@ -216,8 +216,8 @@ a {
     cursor: default;
 }
 
-.app__en-content_sp_skills h2,
-.app__bg-content_sp_skills h2 {
+.app__en-content_sp h2,
+.app__bg-content_sp h2 {
     font-family: 'Calibri';
     font-weight: 800;
     font-size: 65px;
@@ -225,18 +225,6 @@ a {
     letter-spacing: 0.04em;
     color: #0d1b2a;
     margin-bottom: 0.5rem;
-    cursor: default;
-}
-
-.app__en-content_sp_projects h2,
-.app__bg-content_sp_projects h2 {
-    font-family: 'Calibri';
-    font-weight: 800;
-    font-size: 65px;
-    line-height: 110%;
-    letter-spacing: 0.04em;
-    color: #0d1b2a;
-    margin-bottom: 1.5rem;
     cursor: default;
 }
 
@@ -255,7 +243,6 @@ a {
     line-height: 110%;
     letter-spacing: 0.04em;
     color: #0d1b2a;
-    margin-top: 2rem;
     cursor: default;
 }
 
@@ -283,6 +270,11 @@ a {
     margin-top: 1.5rem;
 }
 
+.app__en-content_sp_projects_project p:last-child,
+.app__bg-content_sp_projects_project p:last-child {
+    margin-bottom: 0rem;
+}
+
 .app__en-content_sp_projects_project span,
 .app__bg-content_sp_projects_project span {
     font-family: 'Calibri';
@@ -308,4 +300,43 @@ a {
 .app__en-content_sp_projects_project a:hover,
 .app__bg-content_sp_projects_project a:hover {
     text-decoration: underline;
+}
+
+.app__en-content_sp_projects_project_accounts,
+.app__bg-content_sp_projects_project_accounts {
+    display: flex;
+    flex-direction: row;
+    margin-top: 1.5rem;
+}
+
+.app__en-content_sp_projects_project_accounts h5,
+.app__bg-content_sp_projects_project_accounts h5 {
+    font-family: 'Calibri';
+    font-weight: 600;
+    font-size: 35px;
+    line-height: 110%;
+    letter-spacing: 0.04em;
+    color: #0d1b2a;
+    cursor: default;
+}
+
+.app__en-content_sp_projects_project_accounts p,
+.app__bg-content_sp_projects_project_accounts p {
+    font-family: 'Calibri';
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 110%;
+    letter-spacing: 0.04em;
+    color: #0d1b2a;
+    margin: 0;
+    cursor: default;
+}
+
+.app__en-content_sp_projects_project_accounts_account:last-child,
+.app__bg-content_sp_projects_project_accounts_account:last-child {
+    margin-left: 2rem;
+}
+
+.project_margin {
+    margin: 1.5rem 0;
 }
