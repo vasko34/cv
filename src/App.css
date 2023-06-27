@@ -237,7 +237,12 @@ a {
 .app__bg-content_sp_projects_project {
     display: flex;
     flex-direction: column;
-    margin-bottom: 2rem;
+    margin-bottom: 4rem;
+}
+
+.app__en-content_sp_projects_project:last-child,
+.app__bg-content_sp_projects_project:last-child {
+    margin-bottom: 0;
 }
 
 .app__en-content_sp_projects_project h3,
@@ -340,8 +345,4 @@ a {
 .app__en-content_sp_projects_project_accounts_account:last-child,
 .app__bg-content_sp_projects_project_accounts_account:last-child {
     margin-left: 2rem;
-}
-
-.project_margin {
-    margin: 1rem 0;
 }

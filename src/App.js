@@ -95,7 +95,6 @@ const App = () => {
                                     </div>  
                                     <p>This website is fairly self-explanatory. I allowed myself to make necessary changes while following the design as closely as possible. For example, when implementing media queries for smaller devices, I removed the navigation bar and replaced it with a menu button. Additionally, I changed the flex-direction from row to column in certain sections. After completing the Figma design and ensuring mobile responsiveness, I decided to add overlays for the Log in/Register and Book Table menus, which were not included in the original design. I believe I managed to maintain a consistent style with the other components.</p>                          
                                 </div>
-                                <div className = 'project_margin'></div>
                                 <div className = 'app__en-content_sp_projects_project'>
                                     <h3>Gold Bar</h3>
                                     <div className = 'info_row'>
@@ -123,7 +122,6 @@ const App = () => {
                                         </div>
                                     </div>                                 
                                 </div>
-                                <div className = 'project_margin'></div>
                                 <div className = 'app__en-content_sp_projects_project'>
                                     <h3>My CV</h3>
                                     <div className = 'info_row'>
@@ -213,7 +211,6 @@ const App = () => {
                                     </div>
                                     <p>За този уебсайт няма много какво да се каже. Позволих си да направя някои промени, като се стремях да се придържам възможно най-точно към дизайна. Например, докато приспособявах сайта за по-малки устройства премахнах енкър таговете (&lt;a&gt;...&lt;/a&gt;) и ги замених с меню бутон. Освен това промених насоката на flex-direction от ред в колона в определени секции. След завършването на Figma дизайна и осигуряването на мобилна адаптивност, реших да добавя оувърлейове за менютата "Log in/Register" и "Book Table", които не бяха включени в оригиналния дизайн, придържайки се към стила му.</p>
                                 </div>
-                                <div className = 'project_margin'></div>
                                 <div className = 'app__bg-content_sp_projects_project'>
                                     <h3>Голд Бар</h3>
                                     <div className = 'info_row'>
@@ -241,7 +238,6 @@ const App = () => {
                                         </div>
                                     </div>
                                 </div>
-                                <div className = 'project_margin'></div>
                                 <div className = 'app__bg-content_sp_projects_project'>
                                     <h3>Моето CV</h3>
                                     <div className = 'info_row'>
