@@ -2,7 +2,7 @@
     display: flex;    
     justify-content: center;
     align-items: center;
-    width: 8rem;
+    min-width: 8rem;
     height: 3rem;
     border-radius: 2rem;
     margin-right: 1rem;
@@ -16,4 +16,56 @@
     letter-spacing: 0.04em;
     color: #e0e1dd;
     cursor: default;
+}
+
+@media screen and (max-width: 1250px) {
+    .skillelement {
+        min-width: 7rem;
+        height: 2.9rem;
+    }
+}
+
+@media screen and (max-width: 1100px) {
+    .skillelement {
+        min-width: 6.3rem;
+        height: 2.8rem;
+    }
+
+    .skillelement h3 {
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .skillelement {
+        min-width: 5rem;
+        height: 2.7rem;
+    }
+
+    .skillelement h3 {
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .skillelement {
+        min-width: 4.5rem;
+        height: 2.5rem;
+    }
+
+    .skillelement h3 {
+        font-size: 13px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .skillelement {
+        min-width: 4rem;
+        height: 2.3rem;
+        margin-right: 0.7rem;
+    }
+
+    .skillelement h3 {
+        font-size: 11.5px;
+    }
 }

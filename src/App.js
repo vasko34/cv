@@ -46,15 +46,15 @@ const App = () => {
                             <div className = 'app__en-content_sidebar_info'>
                                 <h2>Information</h2>
                                 <div className = 'info_row'>
-                                    <FaMapMarkerAlt color = 'e0e1dd'></FaMapMarkerAlt>
+                                    <FaMapMarkerAlt color = 'e0e1dd' className = 'react_icon'></FaMapMarkerAlt>
                                     <p>Blagoevgrad, Bulgaria</p>
                                 </div>
                                 <div className = 'info_row'>
-                                    <FiMail color = 'e0e1dd'></FiMail>
+                                    <FiMail color = 'e0e1dd' className = 'react_icon'></FiMail>
                                     <p>vaskobotsev@gmail.com</p>
                                 </div>
                                 <div className = 'info_row'>
-                                    <FaPhone color = 'e0e1dd'></FaPhone>
+                                    <FaPhone color = 'e0e1dd' className = 'react_icon'></FaPhone>
                                     <p>+359 879 604 310</p>
                                 </div>
                             </div>
@@ -91,7 +91,7 @@ const App = () => {
                                     </div>
                                     <div className = 'info_row'>
                                         <span>The Figma design:</span>
-                                        <a href = 'https://www.figma.com/file/yvClSI9AZBRX8UaaGEByF3/Modern-UI%2FUX%3A-Gericht?type=design&node-id=0-1&mode=design&t=z7sBTn1xyKgWsEi9-0' target='_blank' rel='noreferrer'>https://www.figma.com/file/yvClSI9AZBRX8UaaGEByF3/Modern-UI%2FUX%3A-Gericht?type=design&node-id=0-1&mode=design&t=z7sBTn1xyKgWsEi9-0</a>
+                                        <a href = 'https://www.figma.com/file/yvClSI9AZBRX8UaaGEByF3/Modern-UI%2FUX%3A-Gericht?type=design&node-id=0-1&mode=design&t=z7sBTn1xyKgWsEi9-0' target='_blank' rel='noreferrer'>https://www.figma.com/file/yvClSI9AZBRX8UaaGEByF3/...</a>
                                     </div>  
                                     <p>This website is fairly self-explanatory. I allowed myself to make necessary changes while following the design as closely as possible. For example, when implementing media queries for smaller devices, I removed the navigation bar and replaced it with a menu button. Additionally, I changed the flex-direction from row to column in certain sections. After completing the Figma design and ensuring mobile responsiveness, I decided to add overlays for the Log in/Register and Book Table menus, which were not included in the original design. I believe I managed to maintain a consistent style with the other components.</p>                          
                                 </div>
@@ -162,15 +162,15 @@ const App = () => {
                             <div className = 'app__bg-content_sidebar_info'>
                                 <h2>Информация</h2>
                                 <div className = 'info_row'>
-                                    <FaMapMarkerAlt color = 'e0e1dd'></FaMapMarkerAlt>
+                                    <FaMapMarkerAlt color = 'e0e1dd' className = 'react_icon'></FaMapMarkerAlt>
                                     <p>Благоевград, България</p>
                                 </div>
                                 <div className = 'info_row'>
-                                    <FiMail color = 'e0e1dd'></FiMail>
+                                    <FiMail color = 'e0e1dd' className = 'react_icon'></FiMail>
                                     <p>vaskobotsev@gmail.com</p>
                                 </div>
                                 <div className = 'info_row'>
-                                    <FaPhone color = 'e0e1dd'></FaPhone>
+                                    <FaPhone color = 'e0e1dd' className = 'react_icon'></FaPhone>
                                     <p>+359 879 604 310</p>
                                 </div>
                             </div>
@@ -207,7 +207,7 @@ const App = () => {
                                     </div>
                                     <div className = 'info_row'>
                                         <span>Figma дизайнът:</span>
-                                        <a href = 'https://www.figma.com/file/yvClSI9AZBRX8UaaGEByF3/Modern-UI%2FUX%3A-Gericht?type=design&node-id=0-1&mode=design&t=z7sBTn1xyKgWsEi9-0' target='_blank' rel='noreferrer'>https://www.figma.com/file/yvClSI9AZBRX8UaaGEByF3/Modern-UI%2FUX%3A-Gericht?type=design&node-id=0-1&mode=design&t=z7sBTn1xyKgWsEi9-0</a>
+                                        <a href = 'https://www.figma.com/file/yvClSI9AZBRX8UaaGEByF3/Modern-UI%2FUX%3A-Gericht?type=design&node-id=0-1&mode=design&t=z7sBTn1xyKgWsEi9-0' target='_blank' rel='noreferrer'>https://www.figma.com/file/yvClSI9AZBRX8UaaGEByF3/...</a>
                                     </div>
                                     <p>За този уебсайт няма много какво да се каже. Позволих си да направя някои промени, като се стремях да се придържам възможно най-точно към дизайна. Например, докато приспособявах сайта за по-малки устройства премахнах енкър таговете (&lt;a&gt;...&lt;/a&gt;) и ги замених с меню бутон. Освен това промених насоката на flex-direction от ред в колона в определени секции. След завършването на Figma дизайна и осигуряването на мобилна адаптивност, реших да добавя оувърлейове за менютата "Log in/Register" и "Book Table", които не бяха включени в оригиналния дизайн, придържайки се към стила му.</p>
                                 </div>
