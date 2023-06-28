@@ -28,7 +28,7 @@ a {
     background: #0d1b2a;
     padding: 1rem 2rem;
     width: 100vw;
-    height: 10vh;
+    height: 5rem;
     top: 0;
 }
 
@@ -105,12 +105,12 @@ a {
     padding: 2rem 2rem;
     background: #1b263b;
     width: 20vw;
-    height: 90vh;
+    height: calc(100vh - 5rem);
     overflow-y: auto;
     scrollbar-width: none;
     -ms-overflow-style: none;
     left: 0;
-    top: 10vh;
+    top: 5rem;
 }
 
 .app__en-content_sidebar::-webkit-scrollbar,
@@ -176,6 +176,7 @@ a {
 .sidebar_line {
     display: flex;
     height: 2px;
+    min-height: 2px;
     width: 100%;
     background-color: rgba(255, 255, 255, 0.3);
     margin: 1.5rem 0;
@@ -189,11 +190,11 @@ a {
     background: #778da9;
     padding: 2rem 2.9rem;
     width: 80vw;
-    height: 90vh;
+    height: calc(100vh - 5rem);
     overflow-y: auto;
     scrollbar-width: none;
     -ms-overflow-style: none;
-    top: 10vh;
+    top: 5rem;
     left: 20vw;
 }
 
@@ -306,7 +307,7 @@ a {
     letter-spacing: 0.04em;
     color: #0d1b2a;
     cursor: default;
-    margin-right: 0.5rem;
+    margin-right: 0.4rem;
 }
 
 .app__en-content_sp_projects_project a,
@@ -451,6 +452,7 @@ a {
     .app__en-content_sp_projects_project span,
     .app__bg-content_sp_projects_project span {
         font-size: 16px;
+        margin-right: 0.3rem;
     }
 
     .app__en-content_sp_projects_project a,
@@ -499,10 +501,7 @@ a {
     }
 
     .app__en-content_sp_projects_project span,
-    .app__bg-content_sp_projects_project span {
-        font-size: 14px;
-    }
-
+    .app__bg-content_sp_projects_project span,
     .app__en-content_sp_projects_project a,
     .app__bg-content_sp_projects_project a {
         font-size: 14px;
@@ -520,6 +519,11 @@ a {
 }
 
 @media screen and (max-width: 800px) {
+    .app__en-header_switch,
+    .app__bg-header_switch {
+        right: 2rem;
+    }
+
     .app__en-content_sidebar h2,
     .app__bg-content_sidebar h2 {
         font-size: 25px;
@@ -544,16 +548,322 @@ a {
 
     .app__en-content_sp_projects_project h4,
     .app__bg-content_sp_projects_project h4 {
-        font-size: 20px;
+        font-size: 21px;
     }
 
     .app__en-content_sp_projects_project span,
     .app__bg-content_sp_projects_project span {
         font-size: 12px;
+        margin-right: 0.2rem;
     }
 
     .app__en-content_sp_projects_project a,
     .app__bg-content_sp_projects_project a {
         font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .app__en-header h1,
+    .app__bg-header h1 {
+        font-size: 50px;
+    }
+
+    .app__en-content_sidebar,
+    .app__bg-content_sidebar {
+        padding: 1.2rem 1.2rem;
+    }
+
+    .app__en-content_sidebar h2,
+    .app__bg-content_sidebar h2 {
+        font-size: 20px;
+    }
+
+    .app__en-content_sidebar p,
+    .app__bg-content_sidebar p,
+    .react_icon {
+        font-size: 10px;
+    }
+
+    .app__en-content_sp h2,
+    .app__bg-content_sp h2 {
+        font-size: 38px;
+    }
+
+    .app__en-content_sp_projects_project h3,
+    .app__bg-content_sp_projects_project h3 {
+        font-size: 30px;
+    }
+
+    .app__en-content_sp_projects_project h4,
+    .app__bg-content_sp_projects_project h4 {
+        font-size: 19px;
+    }
+
+    .app__en-content_sp_projects_project span,
+    .app__bg-content_sp_projects_project span,
+    .app__en-content_sp_projects_project a,
+    .app__bg-content_sp_projects_project a {
+        font-size: 10px;
+    }
+
+    .app__en-content_sp_skills p,
+    .app__bg-content_sp_skills p,
+    .app__en-content_sp_projects_project p,
+    .app__bg-content_sp_projects_project p {
+        font-size: 18px;
+    }
+
+    .app__en-content_sp_projects_project_accounts h5,
+    .app__bg-content_sp_projects_project_accounts h5 {
+        font-size: 25px;
+    }
+
+    .app__en-content_sp_projects_project_accounts p,
+    .app__bg-content_sp_projects_project_accounts p {
+        font-size: 16px;
+    }
+
+    .app__en-content_sp_projects_project,
+    .app__bg-content_sp_projects_project {
+        margin-bottom: 2.5rem;
+    }
+
+    .app__en-content_sp_skills,
+    .app__bg-content_sp_skills {
+        margin-bottom: 2rem;
+    }    
+}
+
+@media screen and (max-width: 600px) {
+    .app__en-content_sidebar,
+    .app__bg-content_sidebar {
+        padding: 1rem 1rem;
+    }
+
+    .app__en-content_sp,
+    .app__bg-content_sp {
+        padding: 1.5rem 1.5rem;
+    }
+
+    .app__en-content_sidebar h2,
+    .app__bg-content_sidebar h2 {
+        font-size: 19px;
+    }
+
+    .app__en-content_sidebar p,
+    .app__bg-content_sidebar p,
+    .react_icon {
+        font-size: 8.8px;
+    }
+
+    .app__en-content_sp h2,
+    .app__bg-content_sp h2 {
+        font-size: 30px;
+    }
+
+    .app__en-content_sp_projects_project h3,
+    .app__bg-content_sp_projects_project h3 {
+        font-size: 25px;
+    }
+
+    .app__en-content_sp_projects_project h4,
+    .app__bg-content_sp_projects_project h4 {
+        font-size: 18px;
+    }
+
+    .app__en-content_sp_projects_project span,
+    .app__bg-content_sp_projects_project span,
+    .app__en-content_sp_projects_project a,
+    .app__bg-content_sp_projects_project a {
+        font-size: 8.5px;
+    }
+
+    .app__en-content_sp_skills p,
+    .app__bg-content_sp_skills p,
+    .app__en-content_sp_projects_project p,
+    .app__bg-content_sp_projects_project p {
+        font-size: 17px;
+    }
+
+    .app__en-content_sp_projects_project_accounts h5,
+    .app__bg-content_sp_projects_project_accounts h5 {
+        font-size: 22px;
+    }
+
+    .app__en-content_sp_projects_project_accounts p,
+    .app__bg-content_sp_projects_project_accounts p {
+        font-size: 13.5px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .app__en-content,
+    .app__bg-content {
+        flex-direction: column;
+    }
+
+    .app__en-header,
+    .app__bg-header {
+        position: unset;
+        height: 4rem;
+        padding: 1.5rem 1.5rem;
+    }
+
+    .app__en-header h1,
+    .app__bg-header h1 {
+        font-size: 45px;
+    }
+
+    .app__en-header_switch,
+    .app__bg-header_switch {
+        right: 1rem;
+    }
+
+    .app__en-content_sidebar,
+    .app__bg-content_sidebar {
+        position: unset;
+        left: unset;
+        top: 10vh;
+        height: unset;
+        width: 100vw;
+        overflow-y: unset;
+        padding: 1.5rem 1.5rem;
+    }
+
+    .app__en-content_sp,
+    .app__bg-content_sp {
+        position: unset;
+        left: unset;
+        top: unset;
+        height: unset;
+        width: 100vw;
+        overflow-y: unset;
+        padding: 1.5rem 1.5rem;
+    }
+
+    .app__en-content_sidebar h2,
+    .app__bg-content_sidebar h2 {
+        font-size: 30px;
+    }
+
+    .app__en-content_sidebar p,
+    .app__bg-content_sidebar p,
+    .react_icon {
+        font-size: 15px;
+    }
+
+    .app__en-content_sp h2,
+    .app__bg-content_sp h2 {
+        font-size: 35px;
+    }
+
+    .app__en-content_sp_projects_project h3,
+    .app__bg-content_sp_projects_project h3 {
+        font-size: 30px;
+    }
+
+    .app__en-content_sp_projects_project h4,
+    .app__bg-content_sp_projects_project h4 {
+        font-size: 20px;
+    }
+
+    .app__en-content_sp_projects_project span,
+    .app__bg-content_sp_projects_project span,
+    .app__en-content_sp_projects_project a,
+    .app__bg-content_sp_projects_project a {
+        font-size: 10px;
+    }
+
+    .app__en-content_sp_skills p,
+    .app__bg-content_sp_skills p,
+    .app__en-content_sp_projects_project p,
+    .app__bg-content_sp_projects_project p {
+        font-size: 19px;
+    }
+
+    .app__en-content_sp_projects_project_accounts h5,
+    .app__bg-content_sp_projects_project_accounts h5 {
+        font-size: 25px;
+    }
+
+    .app__en-content_sp_projects_project_accounts p,
+    .app__bg-content_sp_projects_project_accounts p {
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .app__en-header,
+    .app__bg-header {
+        padding: 1rem 1rem;
+    }
+
+    .app__en-header h1,
+    .app__bg-header h1 {
+        font-size: 38px;
+    }
+
+    .app__en-header_switch,
+    .app__bg-header_switch {
+        right: 0.7rem;
+    }
+
+    .app__en-header_switch p,
+    .app__bg-header_switch p,
+    .app__en-header_switch b,
+    .app__bg-header_switch b,
+    .app__en-header_switch span,
+    .app__bg-header_switch span {
+        font-size: 18px;
+    }
+
+    .app__en-content_sidebar,
+    .app__bg-content_sidebar {
+        padding: 1rem 1rem;
+    }
+
+    .app__en-content_sp,
+    .app__bg-content_sp {
+        padding: 1rem 1rem;
+    }
+
+    .app__en-content_sp h2,
+    .app__bg-content_sp h2 {
+        font-size: 30px;
+    }
+
+    .app__en-content_sp_projects_project h3,
+    .app__bg-content_sp_projects_project h3 {
+        font-size: 25px;
+    }
+
+    .app__en-content_sp_projects_project h4,
+    .app__bg-content_sp_projects_project h4 {
+        font-size: 19px;
+    }
+
+    .app__en-content_sp_projects_project span,
+    .app__bg-content_sp_projects_project span,
+    .app__en-content_sp_projects_project a,
+    .app__bg-content_sp_projects_project a {
+        font-size: 8px;
+    }
+
+    .app__en-content_sp_skills p,
+    .app__bg-content_sp_skills p,
+    .app__en-content_sp_projects_project p,
+    .app__bg-content_sp_projects_project p {
+        font-size: 18px;
+    }
+
+    .app__en-content_sp_projects_project_accounts h5,
+    .app__bg-content_sp_projects_project_accounts h5 {
+        font-size: 21px;
+    }
+
+    .app__en-content_sp_projects_project_accounts p,
+    .app__bg-content_sp_projects_project_accounts p {
+        font-size: 12.5px;
     }
 }
