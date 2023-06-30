@@ -46,15 +46,15 @@ const App = () => {
                             <div className = 'app__en-content_sidebar_info'>
                                 <h2>Information</h2>
                                 <div className = 'info_row'>
-                                    <FaMapMarkerAlt color = 'e0e1dd' className = 'react_icon'></FaMapMarkerAlt>
+                                    <FaMapMarkerAlt className = 'react_icon'></FaMapMarkerAlt>
                                     <p>Blagoevgrad, Bulgaria</p>
                                 </div>
                                 <div className = 'info_row'>
-                                    <FiMail color = 'e0e1dd' className = 'react_icon'></FiMail>
+                                    <FiMail className = 'react_icon'></FiMail>
                                     <p>vaskobotsev@gmail.com</p>
                                 </div>
                                 <div className = 'info_row'>
-                                    <FaPhone color = 'e0e1dd' className = 'react_icon'></FaPhone>
+                                    <FaPhone className = 'react_icon'></FaPhone>
                                     <p>+359 879 604 310</p>
                                 </div>
                             </div>
@@ -162,15 +162,15 @@ const App = () => {
                             <div className = 'app__bg-content_sidebar_info'>
                                 <h2>Информация</h2>
                                 <div className = 'info_row'>
-                                    <FaMapMarkerAlt color = 'e0e1dd' className = 'react_icon'></FaMapMarkerAlt>
+                                    <FaMapMarkerAlt className = 'react_icon'></FaMapMarkerAlt>
                                     <p>Благоевград, България</p>
                                 </div>
                                 <div className = 'info_row'>
-                                    <FiMail color = 'e0e1dd' className = 'react_icon'></FiMail>
+                                    <FiMail className = 'react_icon'></FiMail>
                                     <p>vaskobotsev@gmail.com</p>
                                 </div>
                                 <div className = 'info_row'>
-                                    <FaPhone color = 'e0e1dd' className = 'react_icon'></FaPhone>
+                                    <FaPhone className = 'react_icon'></FaPhone>
                                     <p>+359 879 604 310</p>
                                 </div>
                             </div>

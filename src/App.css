@@ -141,6 +141,7 @@ a {
 }
 
 .react_icon {
+    color: #e0e1dd;
     font-size: 17px;
 }
 
@@ -707,12 +708,12 @@ a {
     .app__bg-header {
         position: unset;
         height: 4rem;
-        padding: 1.5rem 1.5rem;
+        padding: 1.3rem 1.3rem;
     }
 
     .app__en-header h1,
     .app__bg-header h1 {
-        font-size: 45px;
+        font-size: 38px;
     }
 
     .app__en-header_switch,
@@ -728,7 +729,7 @@ a {
         height: unset;
         width: 100vw;
         overflow-y: unset;
-        padding: 1.5rem 1.5rem;
+        padding: 1.3rem 1.3rem;
     }
 
     .app__en-content_sp,
@@ -739,7 +740,7 @@ a {
         height: unset;
         width: 100vw;
         overflow-y: unset;
-        padding: 1.5rem 1.5rem;
+        padding: 1.3rem 1.3rem;
     }
 
     .app__en-content_sidebar h2,
@@ -755,7 +756,7 @@ a {
 
     .app__en-content_sp h2,
     .app__bg-content_sp h2 {
-        font-size: 35px;
+        font-size: 32px;
     }
 
     .app__en-content_sp_projects_project h3,
@@ -772,7 +773,7 @@ a {
     .app__bg-content_sp_projects_project span,
     .app__en-content_sp_projects_project a,
     .app__bg-content_sp_projects_project a {
-        font-size: 10px;
+        font-size: 8px;
     }
 
     .app__en-content_sp_skills p,
@@ -797,11 +798,6 @@ a {
     .app__en-header,
     .app__bg-header {
         padding: 1rem 1rem;
-    }
-
-    .app__en-header h1,
-    .app__bg-header h1 {
-        font-size: 38px;
     }
 
     .app__en-header_switch,
@@ -830,7 +826,7 @@ a {
 
     .app__en-content_sp h2,
     .app__bg-content_sp h2 {
-        font-size: 30px;
+        font-size: 28px;
     }
 
     .app__en-content_sp_projects_project h3,
@@ -847,7 +843,7 @@ a {
     .app__bg-content_sp_projects_project span,
     .app__en-content_sp_projects_project a,
     .app__bg-content_sp_projects_project a {
-        font-size: 8px;
+        font-size: 6px;
     }
 
     .app__en-content_sp_skills p,

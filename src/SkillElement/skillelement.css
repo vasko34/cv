@@ -95,23 +95,23 @@
 
 @media screen and (max-width: 500px) {
     .skillelement {
-        min-width: 3.2rem;
-        height: 2rem;
+        min-width: 3rem;
+        height: 1.8rem;
     }
 
     .skillelement h3 {
-        font-size: 9px;
+        font-size: 8px;
     }
 }
 
 @media screen and (max-width: 400px) {
     .skillelement {
-        min-width: 2.7rem;
-        height: 1.4rem;
+        min-width: 2.5rem;
+        height: 1.2rem;
         margin-right: 0.4rem;
     }
 
     .skillelement h3 {
-        font-size: 7.5px;
+        font-size: 7px;
     }
 }
