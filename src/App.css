@@ -19,6 +19,10 @@ a {
     text-decoration: none;
 }
 
+.app a:hover {
+    text-decoration: underline;
+}
+
 .app__en-header,
 .app__bg-header {
     display: flex;
@@ -323,10 +327,6 @@ a {
     line-height: 90%;
     letter-spacing: 0.04em;
     color: #0d1b2a;
-}
-
-.app a:hover {
-    text-decoration: underline;
 }
 
 .app__en-content_sp_projects_project_accounts,
