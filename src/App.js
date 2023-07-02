@@ -2,7 +2,7 @@ import React from 'react';
 import './app.css';
 import SkillElement from './SkillElement/SkillElement';
 import { FiMail } from 'react-icons/fi';
-import { FaPhone } from 'react-icons/fa';
+import { FaPhone, FaLinkedin } from 'react-icons/fa';
 import { FaMapMarkerAlt } from 'react-icons/fa';
 
 const App = () => {
@@ -56,6 +56,10 @@ const App = () => {
                                 <div className = 'info_row'>
                                     <FaPhone className = 'react_icon'></FaPhone>
                                     <p>+359 879 604 310</p>
+                                </div>
+                                <div className = 'info_row'>
+                                    <FaLinkedin  className = 'react_icon'></FaLinkedin >
+                                    <a href = 'https://www.linkedin.com/in/vasil-botsev-bba159281/' target='_blank' rel='noreferrer'>LinkedIn</a>
                                 </div>
                             </div>
                         </div>
@@ -168,6 +172,10 @@ const App = () => {
                                 <div className = 'info_row'>
                                     <FaPhone className = 'react_icon'></FaPhone>
                                     <p>+359 879 604 310</p>
+                                </div>
+                                <div className = 'info_row'>
+                                    <FaLinkedin  className = 'react_icon'></FaLinkedin >
+                                    <a href = 'https://www.linkedin.com/in/vasil-botsev-bba159281/' target='_blank' rel='noreferrer'>LinkedIn</a>
                                 </div>
                             </div>
                         </div>

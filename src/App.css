@@ -131,7 +131,9 @@ a {
 }
 
 .app__en-content_sidebar p,
-.app__bg-content_sidebar p {
+.app__bg-content_sidebar p,
+.app__en-content_sidebar a,
+.app__bg-content_sidebar a {
     font-family: 'Calibri';
     font-size: 17px;
     line-height: 110%;
@@ -164,7 +166,9 @@ a {
 }
 
 .app__en-content_sidebar_info p,
-.app__bg-content_sidebar_info p {
+.app__bg-content_sidebar_info p,
+.app__en-content_sidebar_info a,
+.app__bg-content_sidebar_info a {
     margin-left: 0.7rem;
 }
 
@@ -321,8 +325,7 @@ a {
     color: #0d1b2a;
 }
 
-.app__en-content_sp_projects_project a:hover,
-.app__bg-content_sp_projects_project a:hover {
+.app a:hover {
     text-decoration: underline;
 }
 
@@ -364,6 +367,8 @@ a {
 @media screen and (max-width: 1450px) {
     .app__en-content_sidebar p,
     .app__bg-content_sidebar p,
+    .app__en-content_sidebar a,
+    .app__bg-content_sidebar a,
     .react_icon {
         font-size: 16px;
     }
@@ -372,6 +377,8 @@ a {
 @media screen and (max-width: 1350px) {
     .app__en-content_sidebar p,
     .app__bg-content_sidebar p,
+    .app__en-content_sidebar a,
+    .app__bg-content_sidebar a,
     .react_icon {
         font-size: 14px;
     }
@@ -391,6 +398,8 @@ a {
 
     .app__en-content_sidebar p,
     .app__bg-content_sidebar p,
+    .app__en-content_sidebar a,
+    .app__bg-content_sidebar a,
     .react_icon {
         font-size: 16px;
     }
@@ -404,6 +413,8 @@ a {
 
     .app__en-content_sidebar p,
     .app__bg-content_sidebar p,
+    .app__en-content_sidebar a,
+    .app__bg-content_sidebar a,
     .react_icon {
         font-size: 14px;
     }
@@ -424,6 +435,8 @@ a {
 
     .app__en-content_sidebar p,
     .app__bg-content_sidebar p,
+    .app__en-content_sidebar a,
+    .app__bg-content_sidebar a,
     .react_icon {
         font-size: 16px;
     }
@@ -475,6 +488,8 @@ a {
 @media screen and (max-width: 900px) {
     .app__en-content_sidebar p,
     .app__bg-content_sidebar p,
+    .app__en-content_sidebar a,
+    .app__bg-content_sidebar a,
     .react_icon {
         font-size: 13px;
     }
@@ -533,6 +548,8 @@ a {
 
     .app__en-content_sidebar p,
     .app__bg-content_sidebar p,
+    .app__en-content_sidebar a,
+    .app__bg-content_sidebar a,
     .react_icon {
         font-size: 10.5px;
     }
@@ -582,6 +599,8 @@ a {
 
     .app__en-content_sidebar p,
     .app__bg-content_sidebar p,
+    .app__en-content_sidebar a,
+    .app__bg-content_sidebar a,
     .react_icon {
         font-size: 10px;
     }
@@ -654,6 +673,8 @@ a {
 
     .app__en-content_sidebar p,
     .app__bg-content_sidebar p,
+    .app__en-content_sidebar a,
+    .app__bg-content_sidebar a,
     .react_icon {
         font-size: 8.8px;
     }
@@ -750,6 +771,8 @@ a {
 
     .app__en-content_sidebar p,
     .app__bg-content_sidebar p,
+    .app__en-content_sidebar a,
+    .app__bg-content_sidebar a,
     .react_icon {
         font-size: 15px;
     }
