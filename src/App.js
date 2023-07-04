@@ -55,7 +55,7 @@ const App = () => {
                                 </div>
                                 <div className = 'info_row'>
                                     <FaPhone className = 'react_icon'></FaPhone>
-                                    <p>+359 879 604 310</p>
+                                    <p>+359 87 960 4310</p>
                                 </div>
                                 <div className = 'info_row'>
                                     <FaLinkedin  className = 'react_icon'></FaLinkedin >
@@ -171,7 +171,7 @@ const App = () => {
                                 </div>
                                 <div className = 'info_row'>
                                     <FaPhone className = 'react_icon'></FaPhone>
-                                    <p>+359 879 604 310</p>
+                                    <p>+359 87 960 4310</p>
                                 </div>
                                 <div className = 'info_row'>
                                     <FaLinkedin  className = 'react_icon'></FaLinkedin >
